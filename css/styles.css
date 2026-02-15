@@ -273,6 +273,7 @@ ul {
 @media screen and (min-width: 1158px) {
   .media {
     min-height: 600px;
+    max-width: 1440px;
     padding: 188px 188px;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
