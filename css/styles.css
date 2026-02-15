@@ -202,7 +202,7 @@ ul {
     display: block;
     font-size: 12px;
     letter-spacing: 0.04em;
-    line-height: 1.5;
+    line-height: 1.17;
     color: #434455;
     font-style: normal;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -358,7 +358,6 @@ ul {
     border-radius: 4px;
     width: 264px;
     height: 112px;
-    padding: 24px 100px;
     background: #f4f4fd;
   }
   .icon-features {
@@ -670,7 +669,7 @@ ul {
 .form-subscribe {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 .form-input {
   background-color: transparent;
@@ -750,6 +749,7 @@ ul {
   }
   .form-subscribe {
     flex-direction: row;
+    gap: 24px;
   }
   .form-input {
     width: 264px;
