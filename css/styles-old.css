@@ -327,6 +327,7 @@ img {
   display: flex;
   fill: #f4f4fd;
 }
+/*potfolio*/
 .portfolio-container {
   display: flex;
   flex-direction: column;
@@ -384,6 +385,7 @@ img {
 .portfolio-list-item:hover .overlay-text {
   transform: translateY(0);
 }
+/*footer*/
 .site-footer {
   background-color: #2e2f42;
 }
