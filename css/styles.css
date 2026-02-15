@@ -445,6 +445,7 @@ ul {
   gap: 72px;
 }
 .team-list-item {
+  width: 264 px;
   max-width: 264px;
   background-color: #ffffff;
   box-shadow:
