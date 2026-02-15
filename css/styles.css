@@ -281,7 +281,7 @@ ul {
       url("./../images/people@2x.jpg");
   }
 }
-.main-section {
+.main-container {
   width: 100%;
 }
 .main-title {
@@ -488,6 +488,9 @@ ul {
 @media screen and (min-width: 768px) {
   .team-container {
     column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-section .section-list {
     row-gap: 64px;
   }
 }
@@ -701,6 +704,8 @@ ul {
 }
 .submit-btn {
   display: flex;
+  align-items: center;
+  gap: 16px;
   width: 165px;
   height: 40px;
   padding: 8px 24px;
@@ -1064,10 +1069,13 @@ ul {
   line-height: 1.11;
   position: relative;
 }
-.mobile-nav-link.active-link,
-.mobile-address-link.active-link {
+.mobile-nav-link.active-link {
   color: #404bbf;
 }
+.mobile-address-link.active-link {
+  color: #4d5ae5;
+}
+
 .mobile-contact-address {
   font-style: normal;
   margin-bottom: 48px;
